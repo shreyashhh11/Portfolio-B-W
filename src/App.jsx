@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import { useState, useRef } from 'react';
 import { Github, Mail, Linkedin, ExternalLink } from 'lucide-react';
+import { SiLeetcode } from 'react-icons/si';
 import Navigation from './components/Navigation';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -106,6 +107,9 @@ function App() {
               <a href="https://linkedin.com/in/shreyash-kulkarni-00b586229" className="hover:text-gray-400 transition-colors p-2">
                 <Linkedin size={24} />
               </a>
+              <a href="https://leetcode.com/u/risxs11/" className="hover:text-gray-400 transition-colors p-2">
+                <SiLeetcode   size={24} />
+              </a>
             </div>
           </div>
         </header>
@@ -117,11 +121,7 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               <div className="lg:col-span-2">
                 <p className="text-lg md:text-xl leading-relaxed mb-6">
-                 I’m a passionate full-stack developer with a strong foundation in web technologies. Skilled in React, Node.js, and MongoDB, I love turning ideas into responsive and efficient applications
-                  Looking for opportunities to create impactful solutions.
-                </p>
-                <p className="text-lg md:text-xl leading-relaxed">
-                  As a fresher, Standing at the start of my journey, I strive to turn curiosity into code and creativity into experiences that leave a lasting impression.
+                 My journey into development started with a curiosity for how the web works, which evolved into a mastery of React and Node.js. To deepen my understanding of software principles, I expanded my expertise into Core Java and relational data management with SQL. I love the balance of building fast-paced web apps and structured, logic-driven systems. I’m now looking for an opportunity to apply this multi-stack foundation to create meaningful impact
                 </p>
               </div>
             </div>
@@ -214,6 +214,10 @@ And hey, if you’re a Harry Potter fan too, we’ll probably have even more to 
                   <a href="https://linkedin.com/in/shreyash-kulkarni-00b586229" className="flex items-center gap-3 hover:text-gray-400 transition-colors">
                     <Linkedin size={20} />
                     <span>linkedin.com/in/shreyash-kulkarni</span>
+                  </a>
+                  <a href="https://leetcode.com/u/risxs11/" className="flex items-center gap-3 hover:text-gray-400 transition-colors">
+                    <SiLeetcode size={20} />
+                    <span>leetcode.com/risxs11</span>
                   </a>
                 </div>
               </div>
