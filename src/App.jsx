@@ -28,6 +28,27 @@ const projects = [
     link: "https://github.com/shreyashhh11/Blog",
     github: "https://github.com/shreyashhh11/Blog"
   },
+  {
+    title: " VidFlow",
+    description: "An end-to-end video platform featuring a secure RESTful API and encrypted user authentication. Streamlines media management through a custom Cloudinary integration and leverages advanced data modeling to provide a responsive, YouTube-like viewing experience.",
+    tech: ["Node.js", "Express.js", "MongoDB", "JWT", "Multer", "Cloudinary"],
+    link: "https://github.com/shreyashhh11/Utube",
+    github: "https://github.com/shreyashhh11/Utube"
+  },
+  // {
+  //   title: " ContextIQ",
+  //   description: "An AI-driven document intelligence platform that transforms unstructured files into a searchable knowledge base using OpenAI embeddings. Engineered a high-speed pipeline for multi-format text extraction (PDF, TXT, MD) and automated chunking, enabling high-precision semantic search.",
+  //   tech: ["React", "Node.js", "Express.js", "SQLite", "OpenAI API", "Tailwind CSS", "PDF-Parse", "Multer"],
+  //   link: "https://github.com/shreyashhh11/RapidQuest",
+  //   github: "https://github.com/shreyashhh11/RapidQuest"
+  // },
+  // {
+  //   title: " Plane-Shooter 2D game",
+  //   description: "An AI-driven document intelligence platform that transforms unstructured files into a searchable knowledge base using OpenAI embeddings. Engineered a high-speed pipeline for multi-format text extraction (PDF, TXT, MD) and automated chunking, enabling high-precision semantic search.",
+  //   tech: ["React", "Node.js", "Express.js", "SQLite", "OpenAI API", "Tailwind CSS", "PDF-Parse", "Multer"],
+  //   link: "https://github.com/shreyashhh11/java-2D-Game",
+  //   github: "https://github.com/shreyashhh11/java-2D-Game"
+  // },
 ];
 
 const techStack = [
