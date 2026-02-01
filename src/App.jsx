@@ -35,13 +35,13 @@ const projects = [
     link: "https://github.com/shreyashhh11/Utube",
     github: "https://github.com/shreyashhh11/Utube"
   },
-  // {
-  //   title: " ContextIQ",
-  //   description: "An AI-driven document intelligence platform that transforms unstructured files into a searchable knowledge base using OpenAI embeddings. Engineered a high-speed pipeline for multi-format text extraction (PDF, TXT, MD) and automated chunking, enabling high-precision semantic search.",
-  //   tech: ["React", "Node.js", "Express.js", "SQLite", "OpenAI API", "Tailwind CSS", "PDF-Parse", "Multer"],
-  //   link: "https://github.com/shreyashhh11/RapidQuest",
-  //   github: "https://github.com/shreyashhh11/RapidQuest"
-  // },
+  {
+    title: " ContextIQ",
+    description: "An AI-driven document intelligence platform that transforms unstructured files into a searchable knowledge base using OpenAI embeddings. Engineered a high-speed pipeline for multi-format text extraction (PDF, TXT, MD) and automated chunking, enabling high-precision semantic search.",
+    tech: ["React", "Node.js", "Express.js", "SQLite", "OpenAI API", "Tailwind CSS", "PDF-Parse", "Multer"],
+    link: "https://github.com/shreyashhh11/RapidQuest",
+    github: "https://github.com/shreyashhh11/RapidQuest"
+  },
   // {
   //   title: " Plane-Shooter 2D game",
   //   description: "An AI-driven document intelligence platform that transforms unstructured files into a searchable knowledge base using OpenAI embeddings. Engineered a high-speed pipeline for multi-format text extraction (PDF, TXT, MD) and automated chunking, enabling high-precision semantic search.",
