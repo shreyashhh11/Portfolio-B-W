@@ -209,6 +209,22 @@ function App() {
                 </div>
               ))}
             </div>
+                        {/* View More Projects */}
+            <div className="flex justify-center mt-12 md:mt-16">
+              <a
+                href="https://github.com/shreyashhh11"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-3 border-2 border-black px-6 py-3 text-sm md:text-base font-semibold hover:bg-black hover:text-white transition-all duration-300"
+              >
+                <Github
+                  size={20}
+                  className="group-hover:rotate-12 transition-transform"
+                />
+                View More Projects on GitHub
+              </a>
+            </div>
+
           </div>
         </section>
 
